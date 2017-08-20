@@ -6,9 +6,7 @@ def _create_question():
 
 def save_new_question(committer_id, question):
     """ Saves a new question. """
-    commit_message = (
-        'New question created with title \'%s\'.' % question.question_title)
-    _create_question(committer_id, question, commit_message, [{}])
+    pass
 
 
 def delete_question():
