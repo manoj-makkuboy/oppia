@@ -4,7 +4,7 @@ def _create_question():
     pass
 
 
-def save_new_question(committer_id, question):
+def save_new_question():
     """ Saves a new question. """
     pass
 
